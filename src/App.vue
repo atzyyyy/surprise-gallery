@@ -13,7 +13,7 @@
     </div>
 
     <div class="photos" v-show="!loading">
-      <img src="/public/image-icon.svg" alt="icon" width="40" height="40" @click="showModal">
+      <img src="/image-icon.svg" alt="icon" width="40" height="40" @click="showModal">
       <Modal v-show="isOpen" @close="closeModal"> 
         <template v-slot:body>
           <PhotoStack />
